@@ -72,15 +72,3 @@ class MaxHeap {
         }
     }
 }
-
-const maxHeap = new MaxHeap();
-maxHeap.heappush(3);
-maxHeap.heappush(1);
-maxHeap.heappush(2);
-
-console.log(maxHeap.heappop());  // Output: 3
-console.log(maxHeap.heap);       // Output: [2, 1]
-
-maxHeap.heapify([5, 3, 8, 1, 2]);
-console.log(maxHeap.heap);       // Output: [8, 3, 5, 1, 2]
-console.log(maxHeap.peek());   
